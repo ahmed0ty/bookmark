@@ -5,6 +5,9 @@ body
 h1
 {
     font-family: "Pacifico", cursive;
+    background-color: #febe2e;
+    width: fit-content;
+    margin: auto;
 }
 h3
 {
@@ -12,19 +15,7 @@ h3
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.co-width::before {
-    content: "";
-    width: 220px;
-    height: 20px;
-    background-color: orange;
-    position: absolute;
-    left: 42.5%;
-    top: 11%;
-    transform: translateY(-50%);
-    bottom: 0; 
 
-   
-}
 
 .form-control:focus
 {
